@@ -2809,6 +2809,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 25.4) (xy 270.51 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97ef45b-d217-48e7-8a83-deae5d411113")
+	)
+	(wire
+		(pts
 			(xy 158.75 22.86) (xy 158.75 25.4)
 		)
 		(stroke
@@ -5727,13 +5737,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "78c54d41-5529-4f98-acc6-9e4ab6956ff9")
+			(uuid "78c54d41-5529-4f98-acc6-9e4ab6956ffa")
 		)
 		(pin "3"
-			(uuid "bef222f7-8452-4aac-b9cb-d1bb72ae274d")
+			(uuid "bef222f7-8452-4aac-b9cb-d1bb72ae274e")
 		)
 		(pin "1"
-			(uuid "fec481c6-b277-48ca-81e8-d2e2627ee4de")
+			(uuid "fec481c6-b277-48ca-81e8-d2e2627ee4df")
 		)
 		(instances
 			(project ""
@@ -7339,6 +7349,71 @@
 			(project "F1Wheel-UpperBlinkBoard"
 				(path "/a6f92ccc-f41a-40f6-978a-4e53e6ac144b"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 274.32 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94fd54ad-97d8-4906-a44e-8f84235ca576")
+		(property "Reference" "#PWR049"
+			(at 274.32 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b601f8a1-931c-4887-9502-b571737f25b5")
+		)
+		(instances
+			(project "F1Wheel-UpperBlinkBoard"
+				(path "/a6f92ccc-f41a-40f6-978a-4e53e6ac144b"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
